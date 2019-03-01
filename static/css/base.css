@@ -41,6 +41,10 @@ a:hover {
 	background-color: #8952A2;
 }
 
+hr {
+	border-color: #2D0047;
+}
+
 .menu {
 	display: inline-flex;
 	flex-direction: row;

@@ -4,7 +4,7 @@
 	justify-content: space-between;
 	flex-direction: column;
 	font-family: sans-serif;
-	min-width: 36rem;
+	min-width: 40rem;
 	border-bottom: #2D0047 0.1rem solid;
 }
 .article-cover {
@@ -32,7 +32,7 @@
 .article-card {
 	display: flex;
 	width: 30rem;
-	min-width: 20rem;
+	min-width: 28rem;
 	font-size: 0.9rem;
 	flex-flow: row wrap;
 	align-items: center;
@@ -106,13 +106,21 @@
 .article-text blockquote p:last-child {
 	margin: 0;
 }
-.article-text code {
+.article-text code, .article-text pre code {
 	background-color: #000;
-	font-family: monospace;
-	font-size: 1rem;
 	border: 0.1rem solid #2D0047;
 	page-break-inside: avoid;
-	display: inline-block;
 	word-wrap: break-word;
 	padding: 0 0.5rem;
+}
+.article-text pre code {
+	min-width: 35rem;
+	width: 95%;
+	overflow-x: auto;
+	padding: 1rem;
+	font-size: 1rem;
+}
+.article-text code {
+	display: inline-block;
+	font-size: 1.2rem;
 }
