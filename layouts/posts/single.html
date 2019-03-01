@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ "css/base.css" | absURL }}" type="text/css">
+		<link rel="stylesheet" href="{{ "css/posts.css" | absURL }}" type="text/css">
+		<link rel="shortcut icon" href="{{ "favicon.ico" | absURL }}" type="image/x-icon">
+		<link rel="icon" href="{{ "favicon.ico" | absURL }}" type="image/x-icon">
+		<title>{{ .Site.Title }}: {{ .Site.Params.AuthorName }} – {{ .Title }}</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="description" content="{{if .Description }}{{ .Page.Description }}{{else}}{{ .Page.Summary }}{{end}}" />
+		<meta name="keywords" content="{{ delimit .Page.Keywords ", " ", " }}" />
+		<meta name="author" content="{{ .Site.Params.AuthorName }}">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="robots" content="noarchive" />
+		<!-- Twitter Card data -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="{{ .Site.Params.Twitter }}">
+		<meta name="twitter:title" content="{{ .Site.Title }}: {{ .Site.Params.AuthorName }} – {{ .Title }}">
+		<meta name="twitter:description" content="{{if .Description }}{{ .Page.Description }}{{else}}{{ .Page.Summary }}{{end}}">
+		{{if .Params.Cover }}
+		<meta name="twitter:image" content="{{ .Params.cover | absURL }}">
+		{{end}}
+		<!-- Open Graph data -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="{{ .Permalink }}" />
+		<meta property="og:title" content="{{ .Site.Title }}: {{ .Site.Params.AuthorName }} – {{ .Title }}" />
+		<meta property="og:description" content="{{if .Description }}{{ .Page.Description }}{{else}}{{ .Page.Summary }}{{end}}" />
+		{{if .Params.Cover}}
+		<meta property="og:image" content="{{ .Params.cover | absURL }}" />
+		{{end}}
+	</head>
+	<body>
+		{{partial "header.html" . }}
+		<main>
+			<article>
+				<div{{if .Params.cover }} class="article-cover" style="background-image: url('{{ .Params.cover | absURL }}')"{{else}} class="article-no-cover"{{end}}>
+					<h1>{{ .Title }}</h1>
+					<div class="article-cover-bottom">
+						<div class="article-card">
+							{{if .Site.Params.Email }}
+							<a href="{{ "about" | absURL }}">
+								<img class="article-author-pic" src="https://www.gravatar.com/avatar/{{ .Site.Params.Email | md5 }}?s=64">
+							</a>
+							{{end}}
+
+							<div>
+								<div class="article-author">Author:&nbsp;<a href="{{ "about" | absURL }}">{{ .Site.Params.AuthorName }}</a></div>
+								<div class="article-facts">
+									<span>Published&nbsp;on&nbsp;<time datetime="{{ .Page.PublishDate }}">{{ .Page.PublishDate.Format "Jan 2, 2006" }}</time></span>
+									<span>~{{ .FuzzyWordCount }}&nbsp;words</span>
+									<span>{{ .ReadingTime }}&nbsp;min&nbsp;read</span>
+								</div>
+							</div>
+							{{if .Page.Description }}
+							<p>{{ .Page.Description }}</p>
+							{{end}}
+						</div>
+						{{if .Params.coverCredit }}
+						<div class="article-cover-credit">
+							Image credit: <a href="{{ .Params.coverCredit }}" target="_blank">{{ .Params.coverCredit }}</a>
+						</div>
+						{{end}}
+					</div>
+				</div>
+				<div class="article-content">
+					<div class="article-text">
+						{{ .Content }}
+					</div>
+				</div>
+			</article>
+		</main>
+		{{partial "footer.html" . }}
+	</body>
+</html>

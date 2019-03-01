@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" href="{{.Site.BaseURL}}static/style.css" type="text/css">
+		<link rel="shortcut icon" href="{{.Site.BaseURL}}static/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="{{.Site.BaseURL}}/staticfavicon.ico" type="image/x-icon">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>{{.Site.Title}}: {{.Site.Params.AuthorName}} – {{.Title}}</title>
+		<meta name="description" content="{{.Page.Description}}" />
+		<meta name="robots" content="noarchive" />
+
+		<!-- Twitter Card data -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="{{.Site.Params.Twitter}}">
+		<meta name="twitter:title" content="{{.Site.Params.AuthorName}} – {{.Page.Title}}">
+		<meta name="twitter:description" content="{{.Page.Description}}">
+		{{if .Params.Cover}}
+		<meta name="twitter:image" content="{{.Site.BaseURL}}{{.Params.cover}}">
+		{{end}}
+
+		<!-- Open Graph data -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="{{.Site.BaseURL}}{{.File.Path}}" />
+		<meta property="og:title" content="{{.Site.Params.AuthorName}} – {{.Page.Title}}" />
+		<meta property="og:description" content="{{.Page.Description}}" />
+		{{if .Params.Cover}}
+		<meta property="og:image" content="{{.Site.BaseURL}}{{.Params.cover}}" />
+		{{end}}
+	</head>
+	<body>
+		<div class="content">
+				{{ .Content }}
+		</div>
+	</body>
+</html>

@@ -1,0 +1,118 @@
+.article-cover, .article-no-cover {
+	margin-top: 2.7rem;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	font-family: sans-serif;
+	min-width: 36rem;
+	border-bottom: #2D0047 0.1rem solid;
+}
+.article-cover {
+	height: 32rem;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.article-cover h1, .article-no-cover h1 {
+	font-size: 4rem;
+	max-height: 19.2rem;
+	overflow: hidden;
+	margin: 2.5rem 1rem 1rem 1rem;
+	text-shadow: 0.1rem 0.1rem 0.2rem black;
+	text-align: center;
+}
+.article-cover-bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.article-card {
+	display: flex;
+	width: 30rem;
+	min-width: 20rem;
+	font-size: 0.9rem;
+	flex-flow: row wrap;
+	align-items: center;
+	padding: 1rem;
+	padding-bottom: 0;
+	background-color: rgba(51,51,51,0.65);
+}
+.article-card .article-author-pic {
+	margin: 0.5rem;
+	height: 2rem;
+}
+.article-card .article-author {
+	font-weight: bold;
+}
+.article-card .article-facts span:not(:last-child):after {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	content: '/';
+}
+.article-card p {
+	line-height: 1.2rem;
+	max-height: 6rem;
+	overflow: hidden;
+}
+.article-cover-credit {
+	align-self: flex-end;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 20rem;
+	padding: 0 1rem;
+	font-size: 0.9rem;
+	background-color: rgba(51,51,51,0.65);
+}
+.article-content {
+	min-width: 36rem;
+	padding: 0 1.5rem 4rem 1.5rem;
+}
+
+.article-text {
+	margin: 0 auto;
+	max-width: 56rem;
+	line-height: 1.6;
+	font-weight: 400;
+	font-family: serif;
+}
+.article-text p {
+	margin-top: 0;
+}
+.article-text h1, .article-text h2,
+.article-text h3, .article-text h4,
+.article-text h5, .article-text h6 {
+	margin-bottom: 0;
+}
+.article-text blockquote {
+	margin: 1.5em 1rem;
+	padding: 0.5em 1rem;
+	border-left: 0.2rem solid #2D0047;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+.article-text blockquote:before {
+	color: #2D0047;
+	content: open-quote;
+	font-size: 4rem;
+	line-height: 0.1rem;
+	vertical-align: -1.5rem;
+}
+.article-text blockquote p {
+	margin-bottom: 0.5rem;
+}
+.article-text blockquote p:last-child {
+	margin: 0;
+}
+.article-text code {
+	background-color: #000;
+	font-family: monospace;
+	font-size: 1rem;
+	border: 0.1rem solid #2D0047;
+	page-break-inside: avoid;
+	display: inline-block;
+	word-wrap: break-word;
+	padding: 0 0.5rem;
+}

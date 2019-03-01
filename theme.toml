@@ -1,0 +1,12 @@
+name = "Dark Pragma"
+license = "MIT"
+licenselink = "https://github.com/pragmader/hugo-dark-pragma/blob/master/LICENSE.md"
+description = "Hugo theme for pragmader.me"
+homepage = "https://github.com/pragmader/hugo-dark-pragma"
+tags = ["dark"]
+features = []
+min_version = "0.37.1"
+
+[author]
+  name = "Denis Rechkunov"
+  homepage = "https://pragmader.me"
