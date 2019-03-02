@@ -121,8 +121,8 @@
 	padding: 0 0.5rem;
 }
 .article-text pre code {
+	display: block;
 	min-width: 35rem;
-	width: 95%;
 	overflow-x: auto;
 	padding: 1rem;
 	font-size: 1rem;
