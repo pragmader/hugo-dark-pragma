@@ -15,12 +15,11 @@ header {
 	top: 0;
 	font-size: 1.5rem;
 	font-family: sans-serif;
-	text-decoration: none;
 	border-bottom: #2D0047 0.05rem solid;
 	display: flex;
 	justify-content: space-between;
+	align-items: stretch;
 	flex-wrap: nowrap;
-	padding: 0.3rem;
 }
 header .logo {
 	background-repeat: no-repeat;
@@ -29,11 +28,13 @@ header .logo {
 	width: 2.5rem;
 	height: 2.5rem;
 	align-self: flex-start;
+	margin: 0.3rem;
 }
 
 .menu {
 	display: flex;
 	padding-right: 2rem;
+	align-items: stretch;
 }
 .menu .menu-item {
 	text-decoration: none;
@@ -41,10 +42,15 @@ header .logo {
 	font-weight: bold;
 	font-size: 1.2rem;
 	line-height: normal;
+	display: flex;
+	align-items: center;
 }
 .menu .menu-item.active {
 	background-color: #2D0047;
 	color: #FFF;
+}
+.menu .menu-item.active:hover {
+	color: #8952A2;
 }
 
 footer {
