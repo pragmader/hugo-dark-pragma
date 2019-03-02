@@ -1,4 +1,6 @@
-<div{{if .Params.cover }} class="article-cover" style="background-image: url('{{ .Params.cover | absURL }}')"{{else}} class="article-no-cover"{{end}}>
+{{ $cover := (.Page.Resources.GetMatch "cover.*") }}
+
+<div{{if $cover }} class="article-cover" style="background-image: url('{{ $cover.Permalink }}')"{{else}} class="article-no-cover"{{end}}>
 	<h1>{{ .Title }}</h1>
 	<div class="article-cover-bottom">
 		<div class="article-card">

@@ -1,3 +1,4 @@
+{{ $cover := (.Page.Resources.GetMatch "cover.*") }}
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -14,16 +15,16 @@
 		<meta name="twitter:site" content="{{ .Site.Params.Twitter }}">
 		<meta name="twitter:title" content="{{ .Site.Title }}: {{ .Site.Params.AuthorName }} – {{ .Title }}">
 		<meta name="twitter:description" content="{{if .Description }}{{ .Page.Description }}{{else}}{{ .Page.Summary }}{{end}}">
-		{{if .Params.Cover }}
-		<meta name="twitter:image" content="{{ .Params.cover | absURL }}">
+		{{if $cover }}
+		<meta name="twitter:image" content="{{ $cover.Permalink }}">
 		{{end}}
 		<!-- Open Graph data -->
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="{{ .Permalink }}" />
 		<meta property="og:title" content="{{ .Site.Title }}: {{ .Site.Params.AuthorName }} – {{ .Title }}" />
 		<meta property="og:description" content="{{if .Description }}{{ .Page.Description }}{{else}}{{ .Page.Summary }}{{end}}" />
-		{{if .Params.Cover}}
-		<meta property="og:image" content="{{ .Params.cover | absURL }}" />
+		{{if $cover}}
+		<meta property="og:image" content="{{ $cover.Permalink }}" />
 		{{end}}
 	</head>
 	<body>
