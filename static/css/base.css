@@ -144,7 +144,7 @@ hr {
 }
 .content blockquote:after {
 	content: close-quote;
-	vertical-align: -2rem;
+	position: absolute;
 }
 .content blockquote p {
 	margin-bottom: 0.5rem;
