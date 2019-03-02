@@ -31,6 +31,22 @@ header .logo {
 	align-self: flex-start;
 }
 
+.menu {
+	display: flex;
+	padding-right: 2rem;
+}
+.menu .menu-item {
+	text-decoration: none;
+	padding: 0.7rem;
+	font-weight: bold;
+	font-size: 1.2rem;
+	line-height: normal;
+}
+.menu .menu-item.active {
+	background-color: #2D0047;
+	color: #FFF;
+}
+
 footer {
 	text-align: center;
 	padding-top: 1rem;
@@ -54,22 +70,6 @@ a:hover {
 
 hr {
 	border-color: #2D0047;
-}
-
-.menu {
-	display: flex;
-	padding-right: 2rem;
-}
-.menu .menu-item {
-	text-decoration: none;
-	padding: 0.7rem;
-	font-weight: bold;
-	font-size: 1.2rem;
-	line-height: normal;
-}
-.menu .menu-item .active {
-	background-color: #2D0047;
-	color: #FFF;
 }
 
 .content-container {
