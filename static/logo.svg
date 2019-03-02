@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="600"
+   height="600"
+   viewBox="0 0 15875000 15875000"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="pragma-blog-favicon.svg">
+  <title
+     id="title22">Pragma Blog</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="1"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.64"
+     inkscape:cx="165.32224"
+     inkscape:cy="155.43864"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="true"
+     units="px"
+     scale-x="100000"
+     showguides="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid14" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Pragma Blog</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Denis Rechkunov</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Denis Rechkunov (mail@pragmader.me)</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Denis Rechkunov</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+        <dc:description>Logo for the blog on https://pragmader.me</dc:description>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Background">
+    <rect
+       style="fill:#5a2673;stroke-width:26458.33203125;fill-opacity:1"
+       id="rect24"
+       width="15875000"
+       height="15875000"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     inkscape:label="Logo Text"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-138.24998)">
+    <g
+       aria-label="#der"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6350000px;line-height:1.25;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono Medium';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:26458.33203125"
+       id="text12">
+      <path
+         d="m 3057161.6,7369619.3 h 562186.7 V 6820979.2 H 3124895 l 149013.3,-1063413.3 h -636693.4 l -142240,1063413.3 h -860213.3 l 149013.3,-1063413.3 h -636693.3 l -142240,1063413.3 H 429108.23 v 548640.1 H 930334.91 L 733908.23,8805566 H 178494.89 v 541866.6 H 666174.9 l -142240,1083733.4 h 636693.3 l 142240,-1083733.4 h 860213.4 l -142240,1083733.4 h 629920 l 142240,-1083733.4 H 3368735 V 8805566 H 2867508.3 Z M 1370601.6,8805566 1560254.9,7369619.3 h 866986.7 L 2230814.9,8805566 Z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6773333.5px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono Medium';fill:#ffffff;stroke-width:26458.33203125"
+         id="path844" />
+      <path
+         d="m 6630835.9,5330845.9 v 1822026.7 c -230293.4,-257386.7 -528320,-392853.4 -900853.4,-392853.4 -880533.3,0 -1415626.7,792480.1 -1415626.7,1882986.8 0,1124373.3 426720,1876213 1347893.4,1876213 419946.6,0 765386.7,-189653 1002453.3,-528319.7 l 54186.7,440266.7 h 670560 V 5418899.2 Z m -704426.7,2011680 c 291253.3,0 528320,149013.4 704426.7,399626.7 v 1686560 c -176106.7,284480 -426720,514773.4 -765386.7,514773.4 -474133.4,0 -745066.7,-386080 -745066.7,-1300480 0,-894080.1 298026.7,-1300480.1 806026.7,-1300480.1 z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6773333.5px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono Medium';fill:#ffffff;stroke-width:26458.33203125"
+         id="path846" />
+      <path
+         d="M 9222376.7,8886846 H 11593043 c 13547,-88053.4 20320,-216746.7 20320,-338666.7 0,-1110826.7 -596053,-1788160.1 -1544320,-1788160.1 -1015999.6,0 -1632372.9,812800.1 -1632372.9,1882986.8 0,1117600 609600,1876213 1727199.9,1876213 501227,0 968587,-169333 1300480,-440266 l -325120,-460587 c -304800,203200 -596053,311573.3 -941493,311573.3 -514773.6,0 -927946.9,-311573.3 -975360.3,-1043093.3 z M 10075817,7322205.9 c 508000,0 785706,372533.4 799253,1049866.7 H 9215603.4 c 47413.3,-717973.3 386080,-1049866.7 860213.6,-1049866.7 z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6773333.5px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono Medium';fill:#ffffff;stroke-width:26458.33203125"
+         id="path848" />
+      <path
+         d="m 15187038,6766792.6 c -616373,0 -988907,318346.7 -1259840,914400 l -135467,-826346.7 h -1104053 v 541866.7 h 528320 v 2492586.7 h -528320 v 541866.7 h 2004907 v -541866.7 h -717974 V 8561726 c 209974,-697653.4 575734,-1104053.4 1083734,-1117600.1 v 731520 h 541866 l 128694,-1320800 c -162560,-54186.7 -325120,-88053.3 -541867,-88053.3 z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6773333.5px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono Medium';fill:#ffffff;stroke-width:26458.33203125"
+         id="path850" />
+    </g>
+    <g
+       aria-label="#!/web"
+       style="font-style:normal;font-weight:normal;font-size:5291666.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2d0047;fill-opacity:1;stroke:none;stroke-width:26458.33203125"
+       id="text3721">
+      <path
+         d="m 1317193.2,1194601.8 h 235479.2 v -174625 h -211666.7 l 60854.2,-441854.16 h -187854.2 l -60854.1,441854.16 H 766859.91 L 827714.08,578122.64 H 639859.92 L 579005.75,1019976.8 H 343526.59 v 174625 h 214312.5 l -82020.83,587375 h -230187.5 v 169333.3 h 209020.83 l -58208.33,449791.6 h 187854.16 l 60854.16,-449791.6 h 383645.82 l -58208.33,449791.6 h 187854.13 l 55562.5,-449791.6 h 240770.9 v -169333.3 h -214312.5 z m -650874.95,587375 76729.16,-587375 h 388937.49 l -82020.8,587375 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2645833.25px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#2d0047;fill-opacity:1;stroke-width:26458.33203125"
+         id="path853" />
+      <path
+         d="m 2604680.4,578122.64 h -248708.3 l 26458.4,1222374.96 h 198437.4 z M 2482972.1,2075664.3 c -100541.6,0 -177270.8,79375 -177270.8,177270.8 0,100541.7 76729.2,177270.8 177270.8,177270.8 103187.5,0 177270.8,-76729.1 177270.8,-177270.8 0,-97895.8 -74083.3,-177270.8 -177270.8,-177270.8 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2645833.25px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#2d0047;fill-opacity:1;stroke-width:26458.33203125"
+         id="path855" />
+      <path
+         d="M 3598480.2,2673622.6 4725605.1,345289.31 4548334.3,260622.65 3418563.5,2594247.6 Z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2645833.25px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#2d0047;fill-opacity:1;stroke-width:26458.33203125"
+         id="path857" />
+      <path
+         d="M 6163904.7,2401101.7 6404675.6,1006747.6 H 6190363.1 L 6010446.4,2263518.4 5801425.6,1184018.5 h -261937.5 l -222250,1079499.9 -179916.7,-1256770.8 h -224895.8 l 251354.2,1394354.1 h 306916.6 l 195791.7,-1021291.6 182562.5,1021291.6 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2645833.25px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#2d0047;fill-opacity:1;stroke-width:26458.33203125"
+         id="path859" />
+      <path
+         d="m 6893121.3,1781976.8 h 936624.9 c 2645.9,-29104.2 5291.7,-71437.5 5291.7,-119062.5 0,-423333.3 -216958.3,-685270.84 -568854.2,-685270.84 -370416.6,0 -605895.8,306916.64 -605895.8,727604.14 0,433916.7 230187.5,724958.3 637645.8,724958.3 171979.2,0 346604.2,-60854.1 476250,-161395.8 l -103187.5,-148166.7 c -124354.1,82020.9 -230187.5,124354.2 -373062.5,124354.2 -214312.5,0 -394229.1,-140229.2 -404812.4,-463020.8 z M 7268829.6,1160206 c 211666.6,0 343958.3,153458.3 349250,452437.4 h -724958.3 c 18520.8,-306916.6 169333.3,-452437.4 375708.3,-452437.4 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2645833.25px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#2d0047;fill-opacity:1;stroke-width:26458.33203125"
+         id="path861" />
+      <path
+         d="M 8524566.9,1189310.1 V 419372.65 l -222250,26458.33 V 2401101.7 h 195791.7 l 15875,-145520.8 c 95250,121708.4 219604.1,174625 378354.1,174625 359833.4,0 552979.2,-304270.8 552979.2,-727604.1 0,-436562.5 -150812.5,-724958.34 -521229.2,-724958.34 -161395.8,0 -296333.3,76729.14 -399520.8,211666.64 z m 317500,1060979.2 c -129645.8,0 -243416.6,-66145.9 -317500,-179916.7 v -690562.5 c 76729.2,-111125 195791.7,-222250 349250,-222250 216958.3,0 330729.2,182562.5 330729.2,545041.7 0,370416.6 -132291.7,547687.5 -362479.2,547687.5 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2645833.25px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#2d0047;fill-opacity:1;stroke-width:26458.33203125"
+         id="path863" />
+    </g>
+    <g
+       aria-label="post | web"
+       style="font-style:normal;font-weight:normal;font-size:5291666.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2d0047;fill-opacity:1;stroke:none;stroke-width:26458.33203125"
+       id="text3721-7">
+      <path
+         d="m 836254.32,13710041 c -166687.51,0 -314854.19,82020 -415395.86,224895 l -18520.84,-195791 H 211837.61 v 1955271 l 222250.02,-26459 v -664104 c 95250,105833 216958.34,158750 370416.69,158750 362479.18,0 537104.18,-304271 537104.18,-727604 0,-436563 -134937.5,-724958 -505354.18,-724958 z m -52916.67,179916 c 219604.15,0 317500.05,182563 317500.05,545042 0,370417 -116416.71,542396 -346604.22,542396 -132291.68,0 -246062.52,-66146 -320145.85,-174625 v -690563 c 76729.17,-111125 195791.67,-222250 349250.02,-222250 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2645833.5px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#2d0047;fill-opacity:1;stroke-width:26458.33203125"
+         id="path866" />
+      <path
+         d="m 2330116.8,13710041 c -391583.4,0 -603250.1,298979 -603250.1,727604 0,439208 209020.9,724958 600604.2,724958 388937.6,0 600604.2,-298979 600604.2,-727604 0,-439208 -206375,-724958 -597958.3,-724958 z m 0,182562 c 238125,0 357187.5,174625 357187.5,542396 0,373062 -119062.5,545042 -359833.4,545042 -240770.8,0 -359833.3,-171980 -359833.3,-542396 0,-370417 121708.3,-545042 362479.2,-545042 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2645833.5px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#2d0047;fill-opacity:1;stroke-width:26458.33203125"
+         id="path868" />
+      <path
+         d="m 3861020.9,14980041 c -164041.7,0 -312208.4,-60855 -420687.5,-150813 l -124354.2,145521 c 119062.5,103187 291041.7,187854 545041.7,187854 296333.3,0 584729.2,-116417 584729.2,-415396 0,-259291 -179916.7,-354541 -452437.5,-428625 -280458.4,-76729 -367770.9,-119062 -367770.9,-246062 0,-105834 79375,-182563 301625,-182563 179916.7,0 298979.2,55563 402166.7,127000 l 100541.7,-153458 c -119062.5,-84667 -283104.2,-153458 -508000,-153458 -314854.2,0 -529166.7,148166 -529166.7,381000 0,243416 187854.1,330729 476250,402166 296333.3,74084 336020.8,140229 336020.8,264584 0,134937 -129645.8,222250 -343958.3,222250 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2645833.5px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#2d0047;fill-opacity:1;stroke-width:26458.33203125"
+         id="path870" />
+      <path
+         d="m 6079841.8,15062061 -87312.5,-150812 c -74083.3,39687 -164041.6,66146 -267229.1,66146 -190500.1,0 -267229.2,-82021 -267229.2,-235479 v -828146 h 455083.3 l 29104.2,-174625 H 5458071 v -341313 l -222250,26459 v 314854 h -320145.9 v 174625 H 5235821 v 830791 c 0,243417 169333.3,418042 468312.5,418042 132291.7,0 277812.5,-37042 375708.3,-100542 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2645833.5px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#2d0047;fill-opacity:1;stroke-width:26458.33203125"
+         id="path872" />
+      <path
+         d="m 8771233.2,12998311 h -198437.6 v 2405063 h 198437.6 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2645833.5px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#2d0047;fill-opacity:1;stroke-width:26458.33203125"
+         id="path874" />
+      <path
+         d="m 12351625,15133499 240770,-1394354 h -214312 l -179917,1256771 -209021,-1079500 h -261937 l -222250,1079500 -179917,-1256771 h -224896 l 251354,1394354 h 306917 l 195792,-1021292 182562,1021292 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2645833.5px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#2d0047;fill-opacity:1;stroke-width:26458.33203125"
+         id="path876" />
+      <path
+         d="m 13080841,14514374 h 936626 c 2645,-29104 5291,-71438 5291,-119063 0,-423333 -216958,-685270 -568854,-685270 -370417,0 -605896,306916 -605896,727604 0,433916 230188,724958 637646,724958 171979,0 346604,-60854 476250,-161396 l -103187,-148166 c -124355,82020 -230188,124354 -373063,124354 -214313,0 -394229,-140229 -404813,-463021 z m 375709,-621771 c 211666,0 343958,153458 349250,452438 h -724959 c 18521,-306917 169334,-452438 375709,-452438 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2645833.5px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#2d0047;fill-opacity:1;stroke-width:26458.33203125"
+         id="path878" />
+      <path
+         d="m 14712288,13921707 v -769937 l -222250,26458 v 1955271 h 195791 l 15875,-145521 c 95250,121708 219604,174625 378354,174625 359834,0 552980,-304271 552980,-727604 0,-436563 -150813,-724958 -521230,-724958 -161395,0 -296333,76729 -399520,211666 z m 317500,1060979 c -129646,0 -243417,-66145 -317500,-179916 v -690563 c 76729,-111125 195791,-222250 349250,-222250 216958,0 330729,182563 330729,545042 0,370417 -132292,547687 -362479,547687 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2645833.5px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#2d0047;fill-opacity:1;stroke-width:26458.33203125"
+         id="path880" />
+    </g>
+  </g>
+</svg>

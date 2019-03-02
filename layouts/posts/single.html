@@ -1,17 +1,14 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<link rel="stylesheet" href="{{ "css/base.css" | absURL }}" type="text/css">
+		{{partial "common-head.html" . }}
+
 		<link rel="stylesheet" href="{{ "css/posts.css" | absURL }}" type="text/css">
-		<link rel="shortcut icon" href="{{ "favicon.ico" | absURL }}" type="image/x-icon">
-		<link rel="icon" href="{{ "favicon.ico" | absURL }}" type="image/x-icon">
 		<title>{{ .Site.Title }}: {{ .Site.Params.AuthorName }} – {{ .Title }}</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
 		<meta name="description" content="{{if .Description }}{{ .Page.Description }}{{else}}{{ .Page.Summary }}{{end}}" />
 		<meta name="keywords" content="{{ delimit .Page.Keywords ", " ", " }}" />
-		<meta name="author" content="{{ .Site.Params.AuthorName }}">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="robots" content="noarchive" />
+
 		<!-- Twitter Card data -->
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="{{ .Site.Params.Twitter }}">
