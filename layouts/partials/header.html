@@ -1,4 +1,5 @@
 <header>
+		<a href="{{ .Site.BaseURL }}"><div class="logo" style="background-image: url('{{ "logo.svg" | absURL }}')"></div></a>
 		<nav class="menu">
 				{{ $currentPage := . }}
 				{{ range .Site.Menus.main }}
