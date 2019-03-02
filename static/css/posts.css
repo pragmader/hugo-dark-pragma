@@ -93,12 +93,19 @@
 	border-left: 0.2rem solid #2D0047;
 	quotes: "\201C""\201D""\2018""\2019";
 }
-.article-text blockquote:before {
+.article-text blockquote:before,
+.article-text blockquote:after {
 	color: #2D0047;
-	content: open-quote;
 	font-size: 4rem;
 	line-height: 0.1rem;
+}
+.article-text blockquote:before {
+	content: open-quote;
 	vertical-align: -1.5rem;
+}
+.article-text blockquote:after {
+	content: close-quote;
+	vertical-align: -2rem;
 }
 .article-text blockquote p {
 	margin-bottom: 0.5rem;
