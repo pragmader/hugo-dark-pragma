@@ -3,7 +3,7 @@
 	<head>
 		{{partial "common-head.html" . }}
 
-		<link rel="stylesheet" href="{{ "css/posts.css" | absURL }}" type="text/css">
+		<link rel="stylesheet" href="{{ "css/article-card.css" | absURL }}" type="text/css">
 		<title>{{ .Site.Title }}: {{ .Site.Params.AuthorName }} – {{ .Title }}</title>
 
 		<meta name="description" content="{{if .Description }}{{ .Page.Description }}{{else}}{{ .Page.Summary }}{{end}}" />
@@ -30,40 +30,8 @@
 		{{partial "header.html" . }}
 		<main>
 			<article>
-				<div{{if .Params.cover }} class="article-cover" style="background-image: url('{{ .Params.cover | absURL }}')"{{else}} class="article-no-cover"{{end}}>
-					<h1>{{ .Title }}</h1>
-					<div class="article-cover-bottom">
-						<div class="article-card">
-							{{if .Site.Params.Email }}
-							<a href="{{ "about" | absURL }}">
-								<img class="article-author-pic" src="https://www.gravatar.com/avatar/{{ .Site.Params.Email | md5 }}?s=64">
-							</a>
-							{{end}}
-
-							<div>
-								<div class="article-author">Author:&nbsp;<a href="{{ "about" | absURL }}">{{ .Site.Params.AuthorName }}</a></div>
-								<div class="article-facts">
-									<span>Published&nbsp;on&nbsp;<time datetime="{{ .Page.PublishDate }}">{{ .Page.PublishDate.Format "Jan 2, 2006" }}</time></span>
-									<span>~{{ .FuzzyWordCount }}&nbsp;words</span>
-									<span>{{ .ReadingTime }}&nbsp;min&nbsp;read</span>
-								</div>
-							</div>
-							{{if .Page.Description }}
-							<p>{{ .Page.Description }}</p>
-							{{end}}
-						</div>
-						{{if .Params.coverCredit }}
-						<div class="article-cover-credit">
-							Image credit: <a href="{{ .Params.coverCredit }}" target="_blank">{{ .Params.coverCredit }}</a>
-						</div>
-						{{end}}
-					</div>
-				</div>
-				<div class="article-content">
-					<div class="article-text">
-						{{ .Content }}
-					</div>
-				</div>
+				{{partial "article-card.html" . }}
+				{{partial "content.html" . }}
 			</article>
 		</main>
 		{{partial "footer.html" . }}
