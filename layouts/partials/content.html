@@ -2,5 +2,7 @@
 	<div class="content">
 		{{partial "toc.html" . }}
 		{{ .Content }}
+		<hr>
+		{{partial "tags.html" .Params.tags }}
 	</div>
 </div>
