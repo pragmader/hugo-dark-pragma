@@ -3,12 +3,11 @@
 	<h1>{{ .Title }}</h1>
 	<div class="article-header-bottom">
 		<div class="article-card">
-			{{if .Site.Params.Email }}
+			{{if .Site.Params.UserPicture }}
 			<a class="article-author-link" href="{{ "about" | absURL }}">
-				<img class="article-author-pic" src="https://www.gravatar.com/avatar/{{ .Site.Params.Email | md5 }}?s=64">
+				<img class="article-author-pic" src="{{ .Site.Params.UserPicture }}">
 			</a>
 			{{end}}
-
 			<div>
 				<div class="article-author">
 					Author:&nbsp;<a href="{{ "about" | absURL }}">{{ .Site.Params.AuthorName }}</a>

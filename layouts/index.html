@@ -1,134 +1,14 @@
-
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<link rel="stylesheet" href="files/style.css" type="text/css">
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<link rel="icon" href="favicon.ico" type="image/x-icon">
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<title>Denis Rechkunov – Software engineer and musician in spare time</title>
-		<meta name="description" content="Contacts, career, talks, etc." />
-		<meta name="robots" content="noarchive" />
-
-		<!-- Twitter Card data -->
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:site" content="@pragmader">
-		<meta name="twitter:title" content="Denis Rechkunov – Software engineer and musician in spare time">
-		<meta name="twitter:description" content="Contacts, career, talks, etc.">
-		<meta name="twitter:image" content="https://www.gravatar.com/avatar/0f18ade06d929797f7c7e418c509a0b1?s=280">
-
-		<!-- Open Graph data -->
-		<meta property="og:title" content="Denis Rechkunov – Software engineer and musician in spare time" />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="http://pragmader.me/" />
-		<meta property="og:image" content="https://www.gravatar.com/avatar/0f18ade06d929797f7c7e418c509a0b1?s=280" />
-		<meta property="og:description" content="Contacts, career, talks, etc." />
+		{{partial "head.html" . }}
+		<link rel="stylesheet" href="{{ "css/content.css" | absURL }}" type="text/css">
 	</head>
 	<body>
-		<div class="content">
-			<header class="menu">
-				<div class="content">
-					<nav>
-						<ul>
-							<li><a href="#about">About</a></li>
-							<li><a href="#contacts">Contacts</a></li>
-							<li><a href="#projects">Projects</a></li>
-							<li><a href="#talks">Talks</a></li>
-							<li><a href="#career">Career</a></li>
-						</ul>
-					</nav>
-				</div>
-			</header>
-			<h1>Denis Rechkunov</h1>
-			<img src="https://www.gravatar.com/avatar/0f18ade06d929797f7c7e418c509a0b1?s=512" width="256">
-			<section id="about">
-				<article>
-					<header>
-						<h2>About</h2>
-					</header>
-					<p>I'm a software engineer and the "engineer" part <a href="https://medium.com/@pragmader/people-dont-remember-what-the-word-engineer-means-anymore-c0aa4feab744">means a lot to me</a>.
-					</p>
-					<p>When I'm not an engineer I am:
-					<ul>
-						<li>a <a href="https://soundcloud.com/pragmader">musician</a> who produces various music and plays guitar</li>
-						<li>a <a href="https://photos.app.goo.gl/mu6pqKeYykSHLpSj9">motorcyclist</a> who is looking forward to the next adventure</li>
-						<li>sometimes a <a href="https://medium.com/@pragmader">blogger</a></li>
-						<li>sometimes a <a href="https://www.youtube.com/playlist?list=PLrArhtpLDTls3INTOO-ba0N89emEsqJ6V">presenter</a> at meetups and conferences</li>
-					</ul>
-					</p>
-				</article>
-			</section>
-			<section id="contacts">
-				<article>
-					<header>
-						<h2>Contacts</h2>
-					</header>
-					<p>Please use <a href="files/public-key.txt">this public key</a> to encrypt confedential data via any communication channel with me.</p>
-					<ul>
-						<li>Any topic via Email <a href="mailto:mail@pragmader.me">mail@pragmader.me</a></li>
-						<li>IM communication on <a href="https://telegram.me/pragmader">Telegram</a></li>
-						<li>Current CV on <a href="https://stackoverflow.com/cv/denis.rechkunov">Stack Overflow</a></li>
-						<li>Open-source enthusiasm on <a href="https://github.com/pragmader">GitHub</a></li>
-						<li>Some short thoughts and opinions on <a href="https://twitter.com/pragmader">Twitter</a></li>
-						<li>Detailed thoughts and serious topics in articles on <a href="https://medium.com/@pragmader">Medium</a></li>
-						<li>Some music on <a href="https://soundcloud.com/pragmader">SoundCloud</a></li>
-					</ul>
-				</article>
-			</section>
-			<section id="projects">
-				<article>
-					<header>
-						<h2>Projects</h2>
-					</header>
-					<ul>
-						<li><a href="https://github.com/crypto-engrams">Crypto-Engrams</a> - Encrypted notes securely stored with no password on server (work in progress)</li>
-						<li><a href="http://catberry.org">Catberry.js</a> - isomorphic framework for building universal front-end apps using components, Flux architecture and progressive rendering. Also, lots of plugins and libraries in the related <a href="https://github.com/catberry">GitHub organization</a></li>
-						<li><a href="https://github.com/pragmader/navimacs">navimacs</a> - simple web-extension (Chrome/Firefox) for bringing Emacs-like page navigation to browsers.</li>
-					</ul>
-				</article>
-			</section>
-			<section id="talks">
-				<article>
-					<header>
-						<h2>Talks</h2>
-					</header>
-					<p>All published talk videos are on this <a href="https://www.youtube.com/playlist?list=PLrArhtpLDTls3INTOO-ba0N89emEsqJ6V">YouTube playlist</a>.</p>
-					<h3>In English</h3>
-					<ul>
-						<li><a href="https://2016.jsconf.is/speakers/denis-rechkunov/">JSConf Iceland 2016</a>: Progressive rendering – how to make your apps to render sooner (<a href="http://bit.ly/jsconf-progressive-rendering">slides</a>, <a href="https://youtu.be/aRaQe9n1lPk?list=PLrArhtpLDTls3INTOO-ba0N89emEsqJ6V">video</a>)</li>
-						<li><a href="http://berlinjs.org/">BerlinJS</a>: Progressive rendering with Catberry.js (<a href="http://bit.ly/pb-berlinjs-catberry">slides</a>)</li>
-					</ul>
-					<h3>In Russian</h3>
-					<ul>
-						<li>В гостях у компании <a href="http://www.enterra.ru/">Enterra</a>: Зачем изоморфный JavaScript? Почему Catberry.js? (<a href="http://bit.ly/pb-what-isojs-why-catberry">слайды</a>, <a href="https://youtu.be/tVjf2s_n4_g?list=PLrArhtpLDTls3INTOO-ba0N89emEsqJ6V">видео</a>)</li>
-						<li><a href="http://2015.codefest.ru/lecture/1006">CodeFest 2015</a>: Изоморфный JavaScript – Будущее уже здесь (<a href="http://bit.ly/pb-codefest-isojs">слайды</a>, <a href="https://youtu.be/MPGt7Tef83Y?list=PLrArhtpLDTls3INTOO-ba0N89emEsqJ6V">видео</a>)</li>
-						<li><a href="https://vk.com/jsibnsk">JSib</a> — сообщество JavaScript-разработчиков в Новосибирске
-							<ul>
-								<li>Знакомство и амбициозные планы (<a href="http://bit.ly/pb-jsib-beginning">слайды</a>, <a href="https://youtu.be/sQRWblPHrMs?list=PLrArhtpLDTls3INTOO-ba0N89emEsqJ6V">видео</a>)</li>
-								<li>Распространённые ошибки в JavaScript (<a href="http://bit.ly/pb-jsib-javascript-mistakes">слайды</a>, <a href="https://youtu.be/lJxkPKtl-SQ?list=PLrArhtpLDTls3INTOO-ba0N89emEsqJ6V">видео</a>)</li>
-								<li>Изоморфный фреймворк Catberry (<a href="http://bit.ly/pb-jsib-catberry">слайды</a>, <a href="https://youtu.be/TY3JFFp1fJI?list=PLrArhtpLDTls3INTOO-ba0N89emEsqJ6V">видео</a>)</li>
-								<li>Многообещающий JavaScript – Promises (<a href="http://bit.ly/pb-jsib-promises">слайды</a>, <a href="https://youtu.be/LWaXbrLQid0?list=PLrArhtpLDTls3INTOO-ba0N89emEsqJ6V">видео</a>)</li>
-								<li>Отзывчивый UI без блокировки Event Loop (<a href="http://bit.ly/pb-event-loop">слайды</a>, <a href="https://youtu.be/Wp0rvEBZU-c?list=PLrArhtpLDTls3INTOO-ba0N89emEsqJ6V">видео</a>)</li>
-							</ul>
-						</li>
-					</ul>
-				</article>
-			</section>
-			<section id="career">
-				<article>
-					<header>
-						<h2>Career</h2>
-					</header>
-					<p>I was born in <a href="https://en.wikipedia.org/wiki/Barnaul">Barnaul, Russia</a> where graduated from <a href="https://en.altstu.ru/">Altai State Technical University</a> as a software engineer (MS, Computer Science) in 2012.</p>
-					<p>In last studying years (2010-2011) I started working in a startup where was designing and developing a <a href="https://en.wikipedia.org/wiki/SCADA">SCADA system</a> for water supply and heating systems. It was a service written in Node.js that communicated with <a href="https://en.wikipedia.org/wiki/Programmable_logic_controller">PLCs</a> installed in some facility buildings and displayed all the information from sensors in real-time on the web-interface. The company agreed to let me write my master's thesis out of this project.</p>
-					<p>Before and after this job I took 2 internships at Intel which brought me very first experience working at the company that scale.</p>
-					<p>Next 2 years (2011-2013) I was working as a .NET/C# developer building wide variety of products: a social network for charities, sport-bet gambling software, data warehouse with high-load data processing and composition.</p>
-					<p>In 2014 I started working at <a href="http://flamp.ru/">Flamp</a> project which is a part of the large company in Russia called <a href="http://info.2gis.com/">2GIS</a>. I had this idea to build a <a href="http://catberry.org/">framework for isomorphic JavaScript applications with progressive rendering</a>. When I shared this idea with the project's team they let me build a prototype after which we all decided to proceed with building a brand new version of the web-site using this technology. The framework was published as an <a href="https://github.com/catberry/catberry">open-source project</a>.</p>
-					<p>In November 2015 I moved to Berlin, Germany for a job at Amazon Web Services, where helped building a UI web-components library and backend platform for AWS consoles which is written in Java.</p>
-					<p>In January 2017 I started working at <a href="https://jobs.zalando.com/tech/">Zalando</a> where contributed to the mobile API (Scala, Play) and later joined the Merchant Portal team where I was working on the API gateway for Merchant Operations built in Go (fork of <a href="https://github.com/zalando/skipper" target="_blank">Skipper</a>).</p>
-					<p>In July 2018 I joined <a href="https://www.contiamo.com/">Contiamo</a> to work on <a href="https://www.contiamo.com/#Labs">Labs</a> – cloud platform for data scientists. The project is written in Go and involves a lot of interaction with Kubernetes and Docker SDKs as well as working with gRPC, REST and Postgres.</p>
-				</article>
-			</section>
-		</div>
+		{{partial "site-header.html" . }}
+		<main>
+			{{partial "content.html" . }}
+		</main>
+		{{partial "footer.html" . }}
 	</body>
 </html>
