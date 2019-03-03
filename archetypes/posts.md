@@ -1,8 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
 description: ""
 coverCredit: ""
-date: {{ .Date }}
+tocEnabled: true
 keywords: []
+tags: []
 draft: true
 ---

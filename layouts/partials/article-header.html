@@ -1,8 +1,7 @@
 {{ $cover := (.Page.Resources.GetMatch "cover.*") }}
-
-<div{{if $cover }} class="article-cover" style="background-image: url('{{ $cover.Permalink }}')"{{else}} class="article-no-cover"{{end}}>
+<header{{if $cover }} class="article-header" style="background-image: url('{{ $cover.Permalink }}')"{{else}} class="article-header-no-cover"{{end}}>
 	<h1>{{ .Title }}</h1>
-	<div class="article-cover-bottom">
+	<div class="article-header-bottom">
 		<div class="article-card">
 			{{if .Site.Params.Email }}
 			<a class="article-author-link" href="{{ "about" | absURL }}">
@@ -25,9 +24,9 @@
 			{{end}}
 		</div>
 		{{if .Params.coverCredit }}
-		<div class="article-cover-credit">
+		<div class="article-header-credit">
 			Image credit: <a href="{{ .Params.coverCredit }}" target="_blank">{{ .Params.coverCredit }}</a>
 		</div>
 		{{end}}
 	</div>
-</div>
+</header>

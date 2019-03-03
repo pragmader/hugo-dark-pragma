@@ -3,8 +3,8 @@
 <html>
 	<head>
 		{{partial "common-head.html" . }}
-
 		<link rel="stylesheet" href="{{ "css/article-card.css" | absURL }}" type="text/css">
+		<link rel="stylesheet" href="{{ "css/content.css" | absURL }}" type="text/css">
 		<title>{{ .Site.Title }}: {{ .Site.Params.AuthorName }} – {{ .Title }}</title>
 
 		<meta name="description" content="{{if .Description }}{{ .Page.Description }}{{else}}{{ .Page.Summary }}{{end}}" />
@@ -28,12 +28,9 @@
 		{{end}}
 	</head>
 	<body>
-		{{partial "header.html" . }}
+		{{partial "site-header.html" . }}
 		<main>
-			<article>
-				{{partial "article-card.html" . }}
-				{{partial "content.html" . }}
-			</article>
+			{{partial "article.html" . }}
 		</main>
 		{{partial "footer.html" . }}
 	</body>
