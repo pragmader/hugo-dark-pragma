@@ -1,6 +1,10 @@
 <div class="content-container">
 	<div class="content">
-		{{partial "toc.html" . }}
+		{{if .Params.tocEnabled }}
+		<aside class="content-toc">
+			{{ .TableOfContents }}
+		</aside>
+		{{end}}
 		{{ .Content }}
 		<hr>
 		{{partial "tags.html" .Params.tags }}
