@@ -1,4 +1,4 @@
-<div class="site-header">
+<section class="site-header">
 		<a href="{{ .Site.BaseURL }}"><div class="logo" style="background-image: url('{{ "logo.svg" | absURL }}')"></div></a>
 		<nav>
 				{{ $currentPage := . }}
@@ -6,4 +6,4 @@
 				<a class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
 				{{ end }}
 		</nav>
-</div>
+</section>
