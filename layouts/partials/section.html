@@ -1,0 +1,31 @@
+{{ $level := .Level | default 1 }}
+<h{{ $level }}>
+	<a href="{{ .Section.Permalink }}">
+		{{- .Section.Title -}}
+	</a>
+</h{{ $level }}>
+
+{{ .Section.Description }}
+{{if .Section.Pages }}
+<ul class="page-list">
+	{{range .Section.Pages}}
+	<li>
+		<article>
+			<a href="{{ .Permalink }}">
+				<header>
+					<h{{ (add $level 1) }}>
+						{{- .Title -}}
+					</h{{ (add $level 1) }}>
+				</header>
+				<time datetime="{{ .Date }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+				<p>{{ .Description | default .Summary }}</p>
+			</a>
+		</article>
+	</li>
+	{{end}}
+</ul>
+{{end}}
+
+{{range .Section.Sections }}
+{{partial "section.html" (dict "Section" . "Level" (add $level 1))  }}
+{{end}}

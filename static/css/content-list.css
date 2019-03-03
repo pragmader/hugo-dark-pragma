@@ -1,0 +1,17 @@
+.content-list {
+	padding-top: 2rem;
+}
+.content-list a {
+	text-decoration: none;
+}
+.content-list .page-list {
+	border-left: 0.1rem #2D0047 solid;
+}
+.content-list .page-list li::before {
+	content: unset;
+}
+.content-list h1,.content-list h2,
+.content-list h3,.content-list h4,
+.content-list h5,.content-list h6 {
+	margin-bottom: 0;
+}
