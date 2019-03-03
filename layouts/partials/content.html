@@ -1,5 +1,5 @@
 <div class="content-container">
-	<div class="content">
+	<section class="content">
 		{{if .Params.tocEnabled }}
 		<aside class="content-toc">
 			{{ .TableOfContents }}
@@ -8,5 +8,5 @@
 		{{ .Content }}
 		<hr>
 		{{partial "tags.html" .Params.tags }}
-	</div>
+	</section>
 </div>
