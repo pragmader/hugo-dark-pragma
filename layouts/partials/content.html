@@ -1,12 +1,15 @@
-<div class="content-container">
-	<section class="content">
-		{{if .Params.tocEnabled }}
-		<aside class="content-toc">
-			{{ .TableOfContents }}
-		</aside>
-		{{end}}
-		{{ .Content }}
-		<hr>
-		{{partial "tags.html" .Params.tags }}
-	</section>
-</div>
+{{if .Content }}
+<section class="content">
+	<div class="breadcrumbs">
+		{{partial "breadcrumbs.html" . }}
+	</div>
+	{{if .Params.tocEnabled }}
+	<aside class="content-toc">
+		{{ .TableOfContents }}
+	</aside>
+	{{end}}
+	{{ .Content }}
+	<hr>
+	{{partial "tags.html" .Params.tags }}
+</section>
+{{end}}

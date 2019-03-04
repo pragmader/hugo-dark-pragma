@@ -1,6 +1,7 @@
 .article-item {
 	border: #2D0047 0.1rem solid;
 	text-decoration: none;
+	margin: 1rem 0;
 }
 .article-item:hover {
 	border: #8952A2 0.1rem solid;

@@ -77,6 +77,20 @@ a:hover {
 hr {
 	border-color: #2D0047;
 }
+
 .tags a:not(:last-child)::after {
 	content: ","
+}
+
+.centered {
+	text-align: center;
+}
+
+.breadcrumb {
+	font-size: 1rem;
+	font-weight: bold;
+	white-space: nowrap;
+}
+.breadcrumb:not(:last-child)::after {
+	content: '→';
 }

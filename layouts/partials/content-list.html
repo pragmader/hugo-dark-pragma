@@ -1,5 +1,6 @@
-<main class="content-container">
-	<section class="content content-list">
-		{{partial "section.html" . }}
-	</section>
-</main>
+<section class="content content-list">
+	<div class="breadcrumbs">
+		{{partial "breadcrumbs.html" . }}
+	</div>
+	{{partial "section.html" . }}
+</section>

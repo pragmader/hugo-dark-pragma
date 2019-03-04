@@ -1,20 +1,22 @@
-{{if .Pages }}
-<h2>
-	<a href="{{ .Permalink }}">
-		{{- .Title -}}
-	</a>
-</h2>
+<section>
+	{{if .Pages }}
+	<h2>
+		<a href="{{ .Permalink }}">
+			{{- .Title -}}
+		</a>
+	</h2>
 
-{{ .Description }}
+	{{ .Description }}
 
-<ul class="page-list">
-	{{range .Pages}}
-	<li>
-		{{partial "article-item.html" . }}
-	</li>
+	<ul class="article-list">
+		{{range .Pages}}
+		<li>
+			{{partial "article-item.html" . }}
+		</li>
+		{{end}}
+	</ul>
 	{{end}}
-</ul>
-{{end}}
-{{range .Sections }}
-{{partial "section.html" . }}
-{{end}}
+	{{range .Sections }}
+	{{partial "section.html" . }}
+	{{end}}
+<section>

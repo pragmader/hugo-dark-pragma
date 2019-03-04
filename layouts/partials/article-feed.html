@@ -1,0 +1,9 @@
+{{if . }}
+<ul class="article-feed">
+	{{range . }}
+	<li>
+		{{partial "article-item.html" . }}
+	</li>
+	{{end}}
+</ul>
+{{end}}

@@ -8,7 +8,9 @@
 	</head>
 	<body>
 		{{partial "site-header.html" . }}
-		{{partial "content-list.html" . }}
+		<main class="content-container">
+			{{partial "content-list.html" . }}
+		</main>
 		{{partial "footer.html" . }}
 	</body>
 </html>
