@@ -2,7 +2,7 @@
 <header{{if $cover }} class="article-header" style="background-image: url('{{ $cover.Permalink }}')"{{else}} class="article-header-no-cover"{{end}}>
 	<h1>{{ .Title }}</h1>
 	<div class="article-header-bottom">
-		<div class="article-card">
+		<div class="article-summary-card">
 			{{if .Site.Params.UserPicture }}
 			<a class="article-author-link" href="{{ "about" | absURL }}">
 				<img class="article-author-pic" src="{{ .Site.Params.UserPicture }}">

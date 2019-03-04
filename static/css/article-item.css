@@ -1,0 +1,28 @@
+.article-item {
+	border: #2D0047 0.1rem solid;
+	text-decoration: none;
+}
+.article-item:hover {
+	border: #8952A2 0.1rem solid;
+}
+.article-item h3 {
+	margin: 1rem;
+}
+.article-item p {
+	margin: 0;
+}
+.article-item time {
+	font-weight: bold;
+}
+.article-item.with-cover {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.article-item.with-cover h3 {
+	text-shadow: 0.1rem 0.1rem 0.2rem black;
+}
+.article-item-details {
+	background-color: rgba(52,53,54,0.7);
+	padding: 1rem;
+}
