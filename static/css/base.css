@@ -25,8 +25,8 @@ body {
 	background-repeat: no-repeat;
 	background-size: contain;
 	border: 0.1rem black solid;
-	width: 2.5rem;
-	height: 2.5rem;
+	width: 2.6rem;
+	height: 2.6rem;
 	align-self: flex-start;
 	margin: 0.3rem;
 }
@@ -51,6 +51,11 @@ body {
 }
 .site-header nav .nav-item.active:hover {
 	color: #8952A2;
+}
+
+.site-header nav .nav-item img {
+	height: 2rem;
+	width: 2rem;
 }
 
 footer {

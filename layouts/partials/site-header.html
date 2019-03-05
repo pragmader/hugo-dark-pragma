@@ -1,9 +1,23 @@
 <section class="site-header">
-		<a href="{{ .Site.BaseURL }}"><div class="logo" style="background-image: url('{{ "logo.svg" | absURL }}')"></div></a>
-		<nav>
-				{{ $currentPage := . }}
-				{{ range .Site.Menus.main }}
-				<a class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-				{{ end }}
-		</nav>
+	<a href="{{ .Site.BaseURL }}"><div class="logo" style="background-image: url('{{ "logo.svg" | absURL }}')"></div></a>
+	<nav>
+		{{ $currentPage := . }}
+		{{ range .Site.Menus.main }}
+		<a class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+		{{ end }}
+
+		{{if .Site.Params.Github }}
+		<a class="nav-item" href="https://github.com/{{ .Site.Params.Github }}" target="_blank">
+			<img src="{{ "icons/github.svg" | absURL }}">
+		</a>
+		{{end}}
+		{{if .Site.Params.Twitter }}
+		<a class="nav-item" href="https://twitter.com/{{ .Site.Params.Twitter }}" target="_blank">
+			<img src="{{ "icons/twitter.svg" | absURL }}">
+		</a>
+		{{end}}
+		<a class="nav-item" href="{{ "index.xml" | absURL }}">
+			<img src="{{ "icons/rss.svg" | absURL }}">
+		</a>
+	</nav>
 </section>
