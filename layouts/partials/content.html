@@ -9,7 +9,9 @@
 	</aside>
 	{{end}}
 	{{ .Content }}
+	{{if .Params.tags }}
 	<hr>
 	{{partial "tags.html" .Params.tags }}
+	{{end}}
 </section>
 {{end}}
