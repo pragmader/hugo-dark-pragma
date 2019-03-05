@@ -3,9 +3,6 @@
 	<section class="content-container">
 		{{partial "content.html" . }}
 		{{if .Site.Params.Email }}
-		<section class="content content-list">
-		Feel free to send your feedback to <a href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>.
-		</section>
 		{{end}}
 		{{ $posts := where .Site.RegularPages "Section" "posts" }}
 		{{ $recent := (where $posts "Permalink" "!=" .Permalink) | first 3 }}
