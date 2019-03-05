@@ -4,6 +4,9 @@
 		<a href="{{ .Permalink }}">
 			{{- .Title -}}
 		</a>
+		<a class="section-rss-link" href="{{ .Permalink }}/index.xml">
+			<img class="icon" src="{{ "icons/rss.svg" | absURL }}">
+		</a>
 	</h2>
 
 	{{ .Description }}

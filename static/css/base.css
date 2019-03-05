@@ -53,9 +53,17 @@ body {
 	color: #8952A2;
 }
 
-.site-header nav .nav-item img {
+.icon {
+	display: block;
 	height: 2rem;
 	width: 2rem;
+}
+.section-rss-link {
+	display: inline-block;
+	vertical-align: middle;
+}
+.section-rss-link .icon {
+	padding: 0.3rem;
 }
 
 footer {
