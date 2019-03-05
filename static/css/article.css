@@ -1,6 +1,5 @@
 .article-header,
 .article-header-no-cover {
-	margin-top: 2.7rem;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
