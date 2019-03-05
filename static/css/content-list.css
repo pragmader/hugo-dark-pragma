@@ -13,3 +13,6 @@
 .content-list h5,.content-list h6 {
 	margin-bottom: 0;
 }
+.content-list .article-feed {
+	padding-left: 0;
+}
