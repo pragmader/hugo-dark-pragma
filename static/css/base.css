@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	padding: 0;
+	padding: 3.4rem 0 0 0;
 	background-color: #343536;
 	color: #D7DADC;
 	font-size: 1.25rem;
@@ -102,6 +102,9 @@ hr {
 .breadcrumb {
 	font-size: 1rem;
 	font-weight: bold;
+}
+.breadcrumb a {
+	text-decoration: none;
 }
 .breadcrumb:not(:last-child)::after {
 	content: '→';
