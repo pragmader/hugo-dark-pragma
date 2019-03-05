@@ -1,6 +1,6 @@
 {{if . }}
 <ul class="article-feed">
-	{{range . }}
+	{{range . | first 10 }}
 	<li>
 		{{partial "article-item.html" . }}
 	</li>
