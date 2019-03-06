@@ -4,13 +4,13 @@
 	<div class="article-header-bottom">
 		<div class="article-summary-card">
 			{{if .Site.Params.UserPicture }}
-			<a class="article-author-link" href="{{ "about" | absURL }}">
+			<a class="article-author-link" href="{{ "about" | relURL }}">
 				<img class="article-author-pic" src="{{ .Site.Params.UserPicture }}">
 			</a>
 			{{end}}
 			<div>
 				<div class="article-author">
-					Author:&nbsp;<a href="{{ "about" | absURL }}">{{ .Site.Params.AuthorName }}</a>
+					Author:&nbsp;<a href="{{ "about" | relURL }}">{{ .Site.Params.AuthorName }}</a>
 				</div>
 				<div class="article-facts">
 					<span>Published&nbsp;on&nbsp;<time datetime="{{ .Page.PublishDate }}">{{ .Page.PublishDate.Format "Jan 2, 2006" }}</time></span>
