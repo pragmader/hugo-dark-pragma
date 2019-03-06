@@ -127,3 +127,22 @@
 	border: 0.1rem #2D0047 solid;
 	margin: 1rem 0;
 }
+
+.content-list a {
+	text-decoration: none;
+}
+.content-list .article-list {
+	border-left: 0.1rem #2D0047 solid;
+}
+.content-list .article-feed li::before,
+.content-list .article-list li::before {
+	content: unset;
+}
+.content-list h1,.content-list h2,
+.content-list h3,.content-list h4,
+.content-list h5,.content-list h6 {
+	margin-bottom: 0;
+}
+.content-list .article-feed {
+	padding-left: 0;
+}
