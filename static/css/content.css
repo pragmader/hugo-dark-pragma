@@ -107,6 +107,9 @@
 .content img {
 	max-width: 100%;
 }
+.content p img:only-child {
+	width: 100%;
+}
 
 .content ul, .content ol {
 	padding-left: 1rem;
