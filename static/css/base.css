@@ -69,15 +69,12 @@ body {
 footer {
 	text-align: center;
 	padding-top: 1rem;
-	padding-bottom: 0.25rem;
+	padding-bottom: 1rem;
 	font-size: 1rem;
 	font-family: sans-serif;
 	bottom: 0;
 	min-width: 40rem;
 	border-top: #2D0047 0.05rem solid;
-}
-footer .license-logo {
-	margin: 1rem;
 }
 
 a {
