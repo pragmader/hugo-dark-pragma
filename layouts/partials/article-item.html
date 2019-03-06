@@ -1,6 +1,6 @@
 {{ $cover := (.Resources.GetMatch "cover.*") }}
-<article class="article-item{{if $cover }} with-cover{{end}}"{{if $cover }} style="background-image: url('{{ $cover.Permalink }}')"{{end}}>
-	<a href="{{ .Permalink }}">
+<a href="{{ .Permalink }}">
+	<article class="article-item{{if $cover }} with-cover{{end}}"{{if $cover }} style="background-image: url('{{ $cover.Permalink }}')"{{end}}>
 		<header>
 			<h3>
 				{{- .Title -}}
@@ -10,5 +10,5 @@
  			<time datetime="{{ .Date }}">{{ .Date.Format "Jan 2, 2006" }}</time>
 			<p>{{ .Description | default .Summary }}</p>
 		</div>
-	</a>
-</article>
+	</article>
+</a>
