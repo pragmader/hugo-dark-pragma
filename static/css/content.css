@@ -153,6 +153,14 @@
 .content-list .article-list li::before {
 	content: unset;
 }
+.article-feed-view-all-link {
+	border: 0.1rem #2D0047 solid;
+	text-align: center;
+	width: 100%;
+}
+.article-feed-view-all-link:hover {
+	border-color: #8952A2;
+}
 .content-list h1,.content-list h2,
 .content-list h3,.content-list h4,
 .content-list h5,.content-list h6 {
