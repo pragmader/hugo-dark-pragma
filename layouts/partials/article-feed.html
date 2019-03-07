@@ -6,5 +6,7 @@
 	</li>
 	{{end}}
 </ul>
+{{if (gt (len .) 10) }}
 <a href="{{ "/posts" | relURL }}"><div class="article-feed-view-all-link">View all</div></a>
+{{end}}
 {{end}}
