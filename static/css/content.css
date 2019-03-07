@@ -104,11 +104,23 @@
 	font-size: 1.2rem;
 }
 
-.content img {
+.content img, .content figure {
 	max-width: 100%;
 }
-.content p img:only-child {
+.content p img:only-child, .content figure img {
 	width: 100%;
+	padding: 0;
+}
+
+.content figure {
+	margin: 1.2rem 0 1.2rem 0;
+}
+.content figure img {
+	margin: 0;
+}
+.content figcaption {
+	font-size: 1rem;
+	text-align: center;
 }
 
 .content ul, .content ol {
