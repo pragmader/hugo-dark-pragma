@@ -8,7 +8,7 @@
 	border-bottom: #2D0047 0.1rem solid;
 }
 .article-header {
-	min-height: 45rem;
+	min-height: 40rem;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -16,12 +16,14 @@
 }
 .article-header h1,
 .article-header-no-cover h1 {
+	word-break: break-word;
 	color: #FFF;
 	font-size: 4rem;
 	margin: 2.5rem 1rem 1rem 1rem;
 	text-shadow: 0.1rem 0.1rem 0.2rem black;
 	text-align: center;
 }
+
 .article-header-bottom {
 	display: flex;
 	flex-wrap: wrap-reverse;
@@ -37,6 +39,12 @@
 	padding: 1rem 1rem 0 1rem;
 	background-color: rgba(52,53,54,0.7);
 }
+
+.article-facts-container {
+	padding: 0.5rem 0 0.5rem 0;
+	line-height: 1.6;
+}
+
 .article-summary-card .article-author-link {
 	display: flex;
 	margin-right: 0.3rem;
@@ -47,6 +55,9 @@
 }
 .article-summary-card .article-author {
 	font-weight: bold;
+}
+.article-summary-card .article-facts {
+	display: flex;
 }
 .article-summary-card .article-facts span:not(:last-child):after {
 	padding-left: 0.5rem;
@@ -67,4 +78,18 @@
 	text-align: right;
 	font-size: 0.9rem;
 	text-shadow: 0.1rem 0.1rem 0.2rem black;
+}
+
+@media screen and (max-width: 600px) {
+	.article-header {
+		min-height: 0;
+	}
+	.article-header h1,
+	.article-header-no-cover h1 {
+		font-size: 2rem;
+	}
+	.article-summary-card {
+		max-width: 100%;
+		font-size: 0.7rem;
+	}
 }
