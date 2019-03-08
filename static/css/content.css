@@ -182,7 +182,6 @@
 	.content h3, .content h4,
 	.content h5, .content h6 {
 		margin-top: 0.5rem;
-		line-height: 1;
 		margin-bottom: 0.2rem;
 	}
 	.content h1 {
