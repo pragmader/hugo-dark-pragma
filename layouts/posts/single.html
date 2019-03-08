@@ -5,6 +5,12 @@
 		<link rel="stylesheet" href="{{ "css/article.css" | relURL }}" type="text/css">
 		<link rel="stylesheet" href="{{ "css/content.css" | relURL }}" type="text/css">
 		<link rel="stylesheet" href="{{ "css/article-item.css" | relURL }}" type="text/css">
+		{{if .NextPage }}
+		<link rel="next" href="{{ .NextPage.Permalink }}" type="text/html">
+		{{end}}
+		{{if .PrevPage }}
+		<link rel="prev" href="{{ .PrevPage.Permalink }}" type="text/html">
+		{{end}}
 	</head>
 	<body>
 		{{partial "site-header.html" . }}
