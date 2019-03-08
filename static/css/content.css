@@ -1,6 +1,6 @@
 .content-container {
-	min-width: 36rem;
-	padding: 0 1.5rem 1.5rem 1.5rem;
+	width: 95%;
+	margin: 0 auto;
 	min-height: calc(100vh - 12rem);
 }
 .content {
@@ -90,13 +90,12 @@
 	border: 0.1rem solid #2D0047;
 	page-break-inside: avoid;
 	word-wrap: break-word;
-	padding: 0 0.5rem;
 }
 .content pre code {
 	display: block;
-	min-width: 35rem;
+	width: 100%;
+	margin: 0 auto;
 	overflow-x: auto;
-	padding: 1rem;
 	font-size: 1rem;
 }
 .content code {
@@ -108,10 +107,12 @@
 	max-width: 100%;
 }
 .content p img:only-child, .content figure img {
-	width: 100%;
 	padding: 0;
+	margin: 0 auto;
 }
-
+.content figure img  {
+	width: 100%;
+}
 .content figure {
 	margin: 1.2rem 0 1.2rem 0;
 }

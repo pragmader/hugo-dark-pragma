@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	padding: 3.4rem 0 0 0;
+	padding: 3.4rem 0 0 0; /* header height */
 	background-color: #343536;
 	color: #D7DADC;
 	font-size: 1.25rem;
@@ -68,12 +68,13 @@ body {
 
 footer {
 	text-align: center;
+	margin-top: 5rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	font-size: 1rem;
 	font-family: sans-serif;
 	bottom: 0;
-	min-width: 40rem;
+	width: 100%;
 	border-top: #2D0047 0.05rem solid;
 }
 
