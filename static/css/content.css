@@ -87,23 +87,26 @@
 .content blockquote p:last-child {
 	margin: 0;
 }
-.content code, .content pre code {
+
+.content code{
+	word-wrap: break-word;
 	background-color: #000;
 	border: 0.1rem solid #2D0047;
-	page-break-inside: avoid;
-	word-wrap: break-word;
-}
-.content pre code {
-	display: block;
-	padding: 0.5rem;
-	width: 100%;
-	margin: 0 auto;
-	overflow-x: auto;
-	font-size: 1rem;
-}
-.content code {
+	max-width: 100%;
 	display: inline-block;
 	font-size: 1.2rem;
+}
+.content pre {
+	margin: 0 auto;
+	width: 100%;
+	display: block;
+}
+.content pre code {
+	page-break-inside: avoid;
+	overflow-x: auto;
+	display: block;
+	font-size: 1rem;
+	padding: 0.5rem;
 }
 
 .content img, .content figure {
