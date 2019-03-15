@@ -6,7 +6,7 @@
 			<div class="article-summary-card">
 				{{if .Site.Params.UserPicture }}
 				<a class="article-author-link" href="{{ "about" | relURL }}">
-					<img class="article-author-pic" src="{{ .Site.Params.UserPicture }}">
+					<img alt="author picture" class="article-author-pic" src="{{ .Site.Params.UserPicture }}">
 				</a>
 				{{end}}
 				<div class="article-facts-container">
@@ -25,7 +25,7 @@
 			</div>
 			{{if .Params.coverCredit }}
 			<div class="article-header-credit">
-				Image credit: <a href="{{ .Params.coverCredit }}" target="_blank">{{ .Params.coverCredit }}</a>
+				Image credit: <a href="{{ .Params.coverCredit }}" rel="nofollow noreferrer" target="_blank">{{ .Params.coverCredit }}</a>
 			</div>
 			{{end}}
 		</div>

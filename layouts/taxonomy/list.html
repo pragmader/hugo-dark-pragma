@@ -1,9 +1,7 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="{{ .Page.Language.Lang }}">
 	<head>
 		{{partial "head.html" . }}
-		<link rel="stylesheet" href="{{ "css/content.css" | relURL }}" type="text/css">
-		<link rel="stylesheet" href="{{ "css/article-item.css" | relURL }}" type="text/css">
 	</head>
 	<body>
 		{{partial "site-header.html" . }}

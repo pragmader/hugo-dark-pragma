@@ -1,10 +1,7 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="{{ .Page.Language.Lang }}">
 	<head>
 		{{partial "head.html" . }}
-		<link rel="stylesheet" href="{{ "css/article.css" | relURL }}" type="text/css">
-		<link rel="stylesheet" href="{{ "css/content.css" | relURL }}" type="text/css">
-		<link rel="stylesheet" href="{{ "css/article-item.css" | relURL }}" type="text/css">
 		{{if .NextPage }}
 		<link rel="next" href="{{ .NextPage.Permalink }}" type="text/html">
 		{{end}}

@@ -1,9 +1,7 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="{{ .Page.Language.Lang }}">
 	<head>
 		{{partial "head.html" . }}
-		<link rel="stylesheet" href="{{ "css/content.css" | relURL }}" type="text/css">
-		<link rel="stylesheet" href="{{ "css/article-item.css" | relURL }}" type="text/css">
 		<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ .Permalink }}index.xml">
 		<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="{{ .Permalink }}index.xml">
 	</head>

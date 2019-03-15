@@ -1,5 +1,7 @@
 <section class="site-header">
-	<a href="{{ .Site.BaseURL }}"><div class="logo" style="background-image: url('{{ "icons/logo.svg" | relURL }}')"></div></a>
+	<a class="logo" href="{{ .Site.BaseURL }}">
+		<img alt="website logo" src="{{ "icons/logo.svg" | relURL }}">
+	</a>
 	<nav>
 		{{ $currentPage := . }}
 		{{ range .Site.Menus.main }}
@@ -7,17 +9,17 @@
 		{{ end }}
 
 		{{if .Site.Params.Github }}
-		<a class="nav-item" href="https://github.com/{{ .Site.Params.Github }}" target="_blank">
-			<img class="icon" src="{{ "icons/github.svg" | relURL }}">
+		<a class="nav-item" href="https://github.com/{{ .Site.Params.Github }}" rel="nofollow noreferrer" target="_blank">
+			<img alt="github account" class="icon" src="{{ "icons/github.svg" | relURL }}">
 		</a>
 		{{end}}
 		{{if .Site.Params.Twitter }}
-		<a class="nav-item" href="https://twitter.com/{{ .Site.Params.Twitter }}" target="_blank">
-			<img class="icon" src="{{ "icons/twitter.svg" | relURL }}">
+		<a class="nav-item" href="https://twitter.com/{{ .Site.Params.Twitter }}" rel="nofollow noreferrer" target="_blank">
+			<img alt="twitter account" class="icon" src="{{ "icons/twitter.svg" | relURL }}">
 		</a>
 		{{end}}
-		<a class="nav-item" href="{{ "index.xml" | relURL }}">
-			<img class="icon" src="{{ "icons/rss.svg" | relURL }}">
+		<a class="nav-item" href="{{ "index.xml" | relURL }}" target="_blank">
+			<img alt="rss feed" class="icon" src="{{ "icons/rss.svg" | relURL }}">
 		</a>
 	</nav>
 </section>
