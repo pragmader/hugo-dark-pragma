@@ -18,6 +18,11 @@
 			<img alt="twitter account" class="icon" src="{{ "icons/twitter.svg" | relURL }}">
 		</a>
 		{{end}}
+		{{if .Site.Params.Reddit }}
+		<a class="nav-item" href="https://reddit.com/u/{{ .Site.Params.Reddit }}" rel="nofollow noreferrer" target="_blank">
+			<img alt="reddit profile" class="icon" src="{{ "icons/reddit.svg" | relURL }}">
+		</a>
+		{{end}}
 		<a class="nav-item" href="{{ "index.xml" | relURL }}" target="_blank">
 			<img alt="RSS feed" class="icon" src="{{ "icons/rss.svg" | relURL }}">
 		</a>
